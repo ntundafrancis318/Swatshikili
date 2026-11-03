@@ -5,33 +5,34 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Swatshikili - L'âme de la RDC</title>
 <style>
-body{margin:0;font-family:system-ui;background:#FFF8F0;color:#222}
-.header{background:#0085FF;color:white;padding:20px;text-align:center}
-.header h1{margin:0;font-size:28px;letter-spacing:2px}
-.header p{margin:5px 0 0;opacity:0.9}
-.container{padding:20px;max-width:500px;margin:auto}
-.card{border-radius:20px;padding:20px;margin:15px 0;color:white;display:flex;justify-content:space-between;align-items:center;box-shadow:0 4px 10px rgba(0,0,0,0.1)}
+body{margin:0;font-family:system-ui,sans-serif;background:#f5f7fb;color:#111}
+.header{background:#0085FF;color:white;padding:40px 20px;text-align:center}
+.header h1{margin:0;font-size:32px;letter-spacing:2px}
+.header p{margin:10px 0 0;opacity:.9}
+.container{padding:20px;max-width:900px;margin:auto;display:grid;gap:16px;grid-template-columns:1fr 1fr}
+.card{border-radius:20px;padding:20px;color:white;text-decoration:none;display:block}
 .card h2{margin:0;font-size:22px}
-.card p{margin:5px 0 0;opacity:0.9;font-size:14px}
-.lingala{background:linear-gradient(135deg,#0085FF,#00C2FF)}
-.swahili{background:linear-gradient(135deg,#FF8C00,#FFC700)}
-.tshiluba{background:linear-gradient(135deg,#9D00FF,#FF00A8)}
-.kikongo{background:linear-gradient(135deg,#00C853,#00E676)}
-.footer{text-align:center;padding:20px;color:#888;font-size:13px;margin-top:20px}
+.card p{margin:5px 0 0;opacity:.9}
+.lingala{background:linear-gradient(135deg,#0085FF,#00D2FF)}
+.swahili{background:linear-gradient(135deg,#FF8A00,#FFC700)}
+.tshiluba{background:linear-gradient(135deg,#8E2DE2,#4A00E0)}
+.kikongo{background:linear-gradient(135deg,#11998e,#38ef7d)}
+.footer{text-align:center;padding:30px;color:#888}
 .btn{font-size:24px}
+@media(max-width:600px){.container{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 <div class="header">
 <h1>SWATSHIKILI</h1>
-<p>C'est une plateforme d'apprentissage des langues nationales congolaises. L'âme de la RDC en 4 langues nationales.</p>
+<p>C'est une plateforme d'apprentissage des langues de la RDC</p>
 </div>
 <div class="container">
-<a href="#" style="text-decoration:none"><div class="card lingala"><div><h2>Lingala</h2><p>Mbote, Nzombo, Nini?</p></div><div class="btn">▶</div></div></a>
-<a href="#" style="text-decoration:none"><div class="card swahili"><div><h2>Swahili</h2><p>Jambo, Habari, Asante</p></div><div class="btn">▶</div></div></a>
-<a href="#" style="text-decoration:none"><div class="card tshiluba"><div><h2>Tshiluba</h2><p>Moyo, Betu, Tuasakidila</p></div><div class="btn">▶</div></div></a>
-<a href="#" style="text-decoration:none"><div class="card kikongo"><div><h2>Kikongo</h2><p>Mbote, Ngeye, Matondo</p></div><div class="btn">▶</div></div></a>
-<div class="footer">Fait avec ❤️ à Kinshasa - par ntundafrancis318<br>Version 1.0 - Construit sur Tecno Spark 50</div>
+<a href="#" class="card lingala"><h2>Lingala</h2><p>Apprendre le Lingala</p></a>
+<a href="#" class="card swahili"><h2>Swahili</h2><p>Apprendre le Swahili</p></a>
+<a href="#" class="card tshiluba"><h2>Tshiluba</h2><p>Apprendre le Tshiluba</p></a>
+<a href="#" class="card kikongo"><h2>Kikongo</h2><p>Apprendre le Kikongo</p></a>
 </div>
+<div class="footer">Fait avec ❤️ à Kinshasa - 2026</div>
 </body>
 </html>
